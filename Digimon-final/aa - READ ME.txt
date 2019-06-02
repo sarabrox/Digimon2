@@ -1,0 +1,57 @@
+                                    *DIGIMON - VIRTUAL PET*
+-----------------------------------------------------------------------------------------------
+Dispositivo estilo tamagotchi en el que se cuida y entrena a un Digimon a elegir entre 3
+
+1. ESTADÍSTICAS
+2. DIGIEVOLUCIONES
+3. BATALLAS
+4. PUNTOS A TENER EN CUENTA
+
+1. ESTADÍSTICAS ÚTILES PARA INTERACCIONES Y SUS EXCEPCIONES
+-----------------------------------------------------------------------------------------------
+HAMBRE: de 0 a 10 (0- no tiene nada de hambre, 10- tiene mucha hambre)
+        *Si el nivel de hambre es alto, el digimon no podrá entrenar
+SALUD: de 0 a 10 (0- la salud es mala, 10- buena salud)
+	*Si el nivel de salud es bajo, el digimon no podrá jugar ni entrenar
+ENERGÍA: de 0 a 10 (0- tiene mucho sueño, 10- no tiene nada de sueño)
+	*Si la energía está baja,  el digimon no podrá jugar ni entrenar
+HIGIENE: de 0 a 10 (0- está muy sucio, 10- está muy limpio)
+	*Si la higiene está baja, el digimon enfermará y no podrá entrenar ni jugar
+DIVERSIÓN: de 0 a 10 (0- muy aburrido, 10- muy entretenido)
+	 *Si el digmon está muy aburrido, se negará a entrenar
+AFINIDAD: Si está por debajo de 20, el digimon no podrá entrenar
+
+
+NOTAS: *El menú permite ALIMENTAR, DAR MEDICINA, LIMPIAR, JUGAR, DORMIR y ENTRENAR
+       *De forma aleatoria en el tiempo, el Digimon se hace CACA. Mientras no se limpie,
+        la higiene y la salud irán bajando progresivamente cada 20 segundos.
+       *El Digimon MUERE si la SALUD llega a 0 o si el HAMBRE llega a 10
+       *Hay que subir la afinidad a 20 para poder empezar a entrenar (se sube jugando)
+
+
+2. DIGIEVOLUCIONES
+------------------------------------------------------------------------------------------------
+*De nivel Bebé a nivel Infantil: Cuando supera 20 de FUERZA
+*De nivel Infantil a nivel Adulto: Cuando supera 80 de FUERZA
+*De nivel Adulto a nivel Campeón: Cuando supera 150 de FUERZA
+*De nivel Campeón a nivel Perfecto: Cuando supera 200 de FUERZA
+
+NOTA: He establecido índices bajos para poder avanzar rápidamente y no perder tiempo
+
+
+3. BATALLAS
+------------------------------------------------------------------------------------------------
+*De forma aleatoria, se generan eventos de batalla en los que el jugador elige si aceptar o no
+*El enemigo se genera aleatoriamente entre distintas opciones teniendo en cuenta el nivel actual
+*La batalla tiene lugar de forma automática al pulsar el botón GO! comparando los niveles de
+ fuerza de ambos Digimons
+
+
+4. NOTAS ADICIONALES
+------------------------------------------------------------------------------------------------
+*Los cambios en las estadísticas son inmediatos, aunque las limitaciones establecidas en sus 
+  constructores se aplican una vez reiniciado el ciclo de 20 segundos
+*A veces hay glitchs como que la Fuerza no cambia o el nivel de afinidad aparece duplicado,
+  pero estos fallos se arreglan una vez reiniciado el ciclo de 20 segundos
+*Aunque el Digimon llegue a un nivel de Fuerza en que deba evolucionar, el mensaje y cambio no
+  tienen efecto hasta que se reinicia el ciclo de 20 segundos
